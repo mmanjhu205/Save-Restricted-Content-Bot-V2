@@ -3,7 +3,7 @@
 
 from os import getenv
 
-API_ID = int(getenv("API_ID", "8054489757"))
+API_ID = int(getenv("API_ID", "28549267"))
 API_HASH = getenv("API_HASH", "b2526517ed963b1951a811b24bc29a4e")
 BOT_TOKEN = getenv("BOT_TOKEN", "7477970001:AAEG6bSxz6oE4U7YPVJmvAkhbElBPsiBebY")
 OWNER_ID = list(map(int, getenv("OWNER_ID", "8054489757").split()))
